@@ -7,39 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CF0459EC8C0C3A4CA732B376B17C471 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		A1D53D338EE862F8996AC1568F3AC882 /* Pods-SignalsTutorialComplete-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A58F8727C8D603040477A15192BF4B7 /* Pods-SignalsTutorialComplete-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD74FD8E1C8D37C41E0E3E43EBC629BD /* Pods-SignalsTutorialComplete-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F30F64128A6E14B58CC096E75988B848 /* Pods-SignalsTutorialComplete-dummy.m */; };
+		2140F066382065C14956CCA0E49AC274 /* Pods-SignalsTutorialComplete-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A58F8727C8D603040477A15192BF4B7 /* Pods-SignalsTutorialComplete-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85320C955A586E47120F873C9A112DA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		884ADCA5FB148AB9A46CB61D5111D10B /* AssociatedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC5E6CBE59BC565E5F49C36B92E5226 /* AssociatedObject.swift */; };
+		9C1CE2784EAEDD8581121F43FC92D811 /* Signals-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA8A71E0D90A66C8E555C44BD8A5F6 /* Signals-dummy.m */; };
+		A285698D85538645BB7DC3DCCD8D30E6 /* Signals-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47443C3A95A109F7EE63A3B069C3F226 /* Signals-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7C7287EF94749CE98404F0981EF4262 /* UIControl+Signals.swift in Sources */ = {isa = PBXBuildFile; fileRef = C180F1F576DF1B9DBE4499F1C3DC7312 /* UIControl+Signals.swift */; };
+		B8B7A6482B0580AF2CBEED9C00C9A157 /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D85D64F9905539FEC483FB5C7A6190E /* Signal.swift */; };
+		E7DE8FDB0A5CDECCC67C3CD329AECE97 /* Pods-SignalsTutorialComplete-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F30F64128A6E14B58CC096E75988B848 /* Pods-SignalsTutorialComplete-dummy.m */; };
+		FDC667EE1271EEF03ADFE37573D32C01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C96C8DED9E6702ED5C36CDFA43C44CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C05E4E630AE3B0C96E7EB1A325B6C123;
+			remoteInfo = Signals;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0394C1699A6FCCF42216CC15E3D2658D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E3B8BD5F34438182CE565A6FF9C412 /* Signals-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Signals-prefix.pch"; sourceTree = "<group>"; };
 		0A58F8727C8D603040477A15192BF4B7 /* Pods-SignalsTutorialComplete-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SignalsTutorialComplete-umbrella.h"; sourceTree = "<group>"; };
 		46B728EBE4DED3215B57882690F118A8 /* Pods-SignalsTutorialComplete.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SignalsTutorialComplete.modulemap"; sourceTree = "<group>"; };
+		47443C3A95A109F7EE63A3B069C3F226 /* Signals-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Signals-umbrella.h"; sourceTree = "<group>"; };
 		4FBE202D4517350E9979FB02F5EA8DB4 /* Pods-SignalsTutorialComplete-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SignalsTutorialComplete-acknowledgements.markdown"; sourceTree = "<group>"; };
 		599F5C17BB821211F769001A64F96F61 /* Pods-SignalsTutorialComplete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SignalsTutorialComplete.release.xcconfig"; sourceTree = "<group>"; };
-		72D8A39AD6F3DA2E5BAEA5CAB9D66801 /* Pods_SignalsTutorialComplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SignalsTutorialComplete.framework; path = "Pods-SignalsTutorialComplete.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77068265554809DDC32A013510B48B8C /* Pods_SignalsTutorialComplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SignalsTutorialComplete.framework; path = "Pods-SignalsTutorialComplete.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7977DF4B889415255E001E4A1DA76D40 /* Signals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Signals.framework; path = Signals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D85D64F9905539FEC483FB5C7A6190E /* Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Signal.swift; path = Signals/Signal.swift; sourceTree = "<group>"; };
 		85889328DFFE1A2F70A79D92299476FE /* Pods-SignalsTutorialComplete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SignalsTutorialComplete.debug.xcconfig"; sourceTree = "<group>"; };
+		88C638D5485B21C69E0C4893639A9029 /* Signals.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Signals.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A93AD998898AFF6CC6F6986D26AA2613 /* Signals.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Signals.xcconfig; sourceTree = "<group>"; };
 		B75B1F1D9D67DE3D2A1A2D97A54BA4BE /* Pods-SignalsTutorialComplete-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SignalsTutorialComplete-acknowledgements.plist"; sourceTree = "<group>"; };
+		BBC5E6CBE59BC565E5F49C36B92E5226 /* AssociatedObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssociatedObject.swift; path = Signals/ios/AssociatedObject.swift; sourceTree = "<group>"; };
+		C180F1F576DF1B9DBE4499F1C3DC7312 /* UIControl+Signals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIControl+Signals.swift"; path = "Signals/ios/UIControl+Signals.swift"; sourceTree = "<group>"; };
 		C67524D3EAE2F239539B58C13CC156C2 /* Pods-SignalsTutorialComplete-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SignalsTutorialComplete-resources.sh"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CE73F56154072311FB02D7FC198A2549 /* Pods-SignalsTutorialComplete-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SignalsTutorialComplete-frameworks.sh"; sourceTree = "<group>"; };
 		ECEB9FDC0EE7A0015B227CF443F4E66F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F30F64128A6E14B58CC096E75988B848 /* Pods-SignalsTutorialComplete-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SignalsTutorialComplete-dummy.m"; sourceTree = "<group>"; };
+		FCEA8A71E0D90A66C8E555C44BD8A5F6 /* Signals-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Signals-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3C785268D728E9084886828B73509665 /* Frameworks */ = {
+		04A534548D619F6D7B5526032643AA40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CF0459EC8C0C3A4CA732B376B17C471 /* Foundation.framework in Frameworks */,
+				FDC667EE1271EEF03ADFE37573D32C01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7693EDBE7BEAB41B39BE17FD6F6EDE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85320C955A586E47120F873C9A112DA5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02F4D147FA21E58CBC8F9E26EEF6143F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7C9233A994C9F8D037802F71E0CCDE4 /* Signals */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1DFF1717F9545D6FD325E2986033B77A /* Pods-SignalsTutorialComplete */ = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +108,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		368754320D2E6CE6DF7B00CEE7B03CDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77068265554809DDC32A013510B48B8C /* Pods_SignalsTutorialComplete.framework */,
+				7977DF4B889415255E001E4A1DA76D40 /* Signals.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,12 +125,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		79CBEE29114C798E026615D674493EBD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0394C1699A6FCCF42216CC15E3D2658D /* Info.plist */,
+				88C638D5485B21C69E0C4893639A9029 /* Signals.modulemap */,
+				A93AD998898AFF6CC6F6986D26AA2613 /* Signals.xcconfig */,
+				FCEA8A71E0D90A66C8E555C44BD8A5F6 /* Signals-dummy.m */,
+				05E3B8BD5F34438182CE565A6FF9C412 /* Signals-prefix.pch */,
+				47443C3A95A109F7EE63A3B069C3F226 /* Signals-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Signals";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D1088E18014D298347B4DEA6B5655B84 /* Products */,
+				02F4D147FA21E58CBC8F9E26EEF6143F /* Pods */,
+				368754320D2E6CE6DF7B00CEE7B03CDA /* Products */,
 				235D7487F78739650CFEB9DD7227CD60 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -92,43 +158,73 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D1088E18014D298347B4DEA6B5655B84 /* Products */ = {
+		F7C9233A994C9F8D037802F71E0CCDE4 /* Signals */ = {
 			isa = PBXGroup;
 			children = (
-				72D8A39AD6F3DA2E5BAEA5CAB9D66801 /* Pods_SignalsTutorialComplete.framework */,
+				BBC5E6CBE59BC565E5F49C36B92E5226 /* AssociatedObject.swift */,
+				7D85D64F9905539FEC483FB5C7A6190E /* Signal.swift */,
+				C180F1F576DF1B9DBE4499F1C3DC7312 /* UIControl+Signals.swift */,
+				79CBEE29114C798E026615D674493EBD /* Support Files */,
 			);
-			name = Products;
+			name = Signals;
+			path = Signals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5B0E840D501B54E9DFEA67561DBBA48C /* Headers */ = {
+		7A92E83D6554747DAB7B6D72F0A41D36 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1D53D338EE862F8996AC1568F3AC882 /* Pods-SignalsTutorialComplete-umbrella.h in Headers */,
+				2140F066382065C14956CCA0E49AC274 /* Pods-SignalsTutorialComplete-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8165EC2A3EA623F351D4B4837DAA6B63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A285698D85538645BB7DC3DCCD8D30E6 /* Signals-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C49713D5DF15FAFAA627F8094117A761 /* Pods-SignalsTutorialComplete */ = {
+		C05E4E630AE3B0C96E7EB1A325B6C123 /* Signals */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F58D915044F8F9973F9BD19E0321F18D /* Build configuration list for PBXNativeTarget "Pods-SignalsTutorialComplete" */;
+			buildConfigurationList = 129A104D8887466AB0718AEFAAA17972 /* Build configuration list for PBXNativeTarget "Signals" */;
 			buildPhases = (
-				6EB7EFA8146648DF7ABEA33783D599F2 /* Sources */,
-				3C785268D728E9084886828B73509665 /* Frameworks */,
-				5B0E840D501B54E9DFEA67561DBBA48C /* Headers */,
+				9801AFA4C5EB36006631415B87EBE43B /* Sources */,
+				04A534548D619F6D7B5526032643AA40 /* Frameworks */,
+				8165EC2A3EA623F351D4B4837DAA6B63 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = Signals;
+			productName = Signals;
+			productReference = 7977DF4B889415255E001E4A1DA76D40 /* Signals.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9EAA9EDE766FF1C901280F22F826033 /* Pods-SignalsTutorialComplete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73395D366F1BCA0252DC311C1A3D621F /* Build configuration list for PBXNativeTarget "Pods-SignalsTutorialComplete" */;
+			buildPhases = (
+				B5C6038F03A93F8ED86F9F21E28ED52F /* Sources */,
+				E7693EDBE7BEAB41B39BE17FD6F6EDE0 /* Frameworks */,
+				7A92E83D6554747DAB7B6D72F0A41D36 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38FBF107E72C3702E0044F928E6D27C4 /* PBXTargetDependency */,
+			);
 			name = "Pods-SignalsTutorialComplete";
 			productName = "Pods-SignalsTutorialComplete";
-			productReference = 72D8A39AD6F3DA2E5BAEA5CAB9D66801 /* Pods_SignalsTutorialComplete.framework */;
+			productReference = 77068265554809DDC32A013510B48B8C /* Pods_SignalsTutorialComplete.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -148,65 +244,51 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D1088E18014D298347B4DEA6B5655B84 /* Products */;
+			productRefGroup = 368754320D2E6CE6DF7B00CEE7B03CDA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C49713D5DF15FAFAA627F8094117A761 /* Pods-SignalsTutorialComplete */,
+				F9EAA9EDE766FF1C901280F22F826033 /* Pods-SignalsTutorialComplete */,
+				C05E4E630AE3B0C96E7EB1A325B6C123 /* Signals */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6EB7EFA8146648DF7ABEA33783D599F2 /* Sources */ = {
+		9801AFA4C5EB36006631415B87EBE43B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD74FD8E1C8D37C41E0E3E43EBC629BD /* Pods-SignalsTutorialComplete-dummy.m in Sources */,
+				884ADCA5FB148AB9A46CB61D5111D10B /* AssociatedObject.swift in Sources */,
+				B8B7A6482B0580AF2CBEED9C00C9A157 /* Signal.swift in Sources */,
+				9C1CE2784EAEDD8581121F43FC92D811 /* Signals-dummy.m in Sources */,
+				B7C7287EF94749CE98404F0981EF4262 /* UIControl+Signals.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C6038F03A93F8ED86F9F21E28ED52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7DE8FDB0A5CDECCC67C3CD329AECE97 /* Pods-SignalsTutorialComplete-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin XCBuildConfiguration section */
-		20DC082818326DB8172393DD97C26808 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 599F5C17BB821211F769001A64F96F61 /* Pods-SignalsTutorialComplete.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SignalsTutorialComplete/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SignalsTutorialComplete/Pods-SignalsTutorialComplete.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SignalsTutorialComplete;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+/* Begin PBXTargetDependency section */
+		38FBF107E72C3702E0044F928E6D27C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Signals;
+			target = C05E4E630AE3B0C96E7EB1A325B6C123 /* Signals */;
+			targetProxy = C96C8DED9E6702ED5C36CDFA43C44CDC /* PBXContainerItemProxy */;
 		};
-		35D106B71894B88920FBA1915E867D9F /* Debug */ = {
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4EBFFC57BEFEBF2C453F4CD08FD97B9B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85889328DFFE1A2F70A79D92299476FE /* Pods-SignalsTutorialComplete.debug.xcconfig */;
+			baseConfigurationReference = A93AD998898AFF6CC6F6986D26AA2613 /* Signals.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -219,20 +301,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SignalsTutorialComplete/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Signals/Signals-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Signals/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SignalsTutorialComplete/Pods-SignalsTutorialComplete.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Signals/Signals.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SignalsTutorialComplete;
+				PRODUCT_NAME = Signals;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -278,6 +358,109 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		7535B76EF4B13BF12C90E048582D1D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 599F5C17BB821211F769001A64F96F61 /* Pods-SignalsTutorialComplete.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SignalsTutorialComplete/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SignalsTutorialComplete/Pods-SignalsTutorialComplete.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SignalsTutorialComplete;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79B0DB83EAF5653A7339A63389A6B9CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93AD998898AFF6CC6F6986D26AA2613 /* Signals.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Signals/Signals-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Signals/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Signals/Signals.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Signals;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1EC291D2C4DD98B03ABCF3011E317CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85889328DFFE1A2F70A79D92299476FE /* Pods-SignalsTutorialComplete.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SignalsTutorialComplete/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SignalsTutorialComplete/Pods-SignalsTutorialComplete.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SignalsTutorialComplete;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -326,6 +509,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		129A104D8887466AB0718AEFAAA17972 /* Build configuration list for PBXNativeTarget "Signals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EBFFC57BEFEBF2C453F4CD08FD97B9B /* Debug */,
+				79B0DB83EAF5653A7339A63389A6B9CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -335,11 +527,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F58D915044F8F9973F9BD19E0321F18D /* Build configuration list for PBXNativeTarget "Pods-SignalsTutorialComplete" */ = {
+		73395D366F1BCA0252DC311C1A3D621F /* Build configuration list for PBXNativeTarget "Pods-SignalsTutorialComplete" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35D106B71894B88920FBA1915E867D9F /* Debug */,
-				20DC082818326DB8172393DD97C26808 /* Release */,
+				E1EC291D2C4DD98B03ABCF3011E317CF /* Debug */,
+				7535B76EF4B13BF12C90E048582D1D2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

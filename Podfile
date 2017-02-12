@@ -6,5 +6,6 @@ target 'SignalsTutorialComplete' do
   use_frameworks!
 
   # Pods for SignalsTutorialComplete
-
+  pod 'Signals', '~> 4.0'
+  
 end

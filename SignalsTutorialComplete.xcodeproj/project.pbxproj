@@ -9,10 +9,17 @@
 /* Begin PBXBuildFile section */
 		03ED4CE69671AC6C67214201 /* Pods_SignalsTutorialComplete.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C5729B4D06B5A9B9A3D6AC /* Pods_SignalsTutorialComplete.framework */; };
 		EC3399151E4FE4C2000A5A1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3399141E4FE4C2000A5A1E /* AppDelegate.swift */; };
-		EC3399171E4FE4C2000A5A1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3399161E4FE4C2000A5A1E /* ViewController.swift */; };
 		EC33991A1E4FE4C2000A5A1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3399181E4FE4C2000A5A1E /* Main.storyboard */; };
 		EC33991C1E4FE4C2000A5A1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC33991B1E4FE4C2000A5A1E /* Assets.xcassets */; };
 		EC33991F1E4FE4C2000A5A1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC33991D1E4FE4C2000A5A1E /* LaunchScreen.storyboard */; };
+		EC33992C1E4FE6DB000A5A1E /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC33992B1E4FE6DB000A5A1E /* DownloadViewController.swift */; };
+		EC33992F1E4FE6F4000A5A1E /* DownloadItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC33992D1E4FE6F4000A5A1E /* DownloadItemTableViewCell.swift */; };
+		EC3399301E4FE6F4000A5A1E /* DownloadItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC33992E1E4FE6F4000A5A1E /* DownloadItemTableViewCell.xib */; };
+		EC3399331E4FE7AD000A5A1E /* DownloadableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3399321E4FE7AD000A5A1E /* DownloadableItem.swift */; };
+		EC3399351E4FE7C4000A5A1E /* DownloadItemTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3399341E4FE7C4000A5A1E /* DownloadItemTask.swift */; };
+		EC3399371E4FE8C4000A5A1E /* DownloadPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3399361E4FE8C4000A5A1E /* DownloadPresenter.swift */; };
+		EC3399391E4FE8E6000A5A1E /* DownloadItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3399381E4FE8E6000A5A1E /* DownloadItemStore.swift */; };
+		EC33993B1E4FE8FF000A5A1E /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC33993A1E4FE8FF000A5A1E /* DownloadManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,11 +27,18 @@
 		A0C5729B4D06B5A9B9A3D6AC /* Pods_SignalsTutorialComplete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalsTutorialComplete.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3399111E4FE4C2000A5A1E /* SignalsTutorialComplete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignalsTutorialComplete.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3399141E4FE4C2000A5A1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC3399161E4FE4C2000A5A1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC3399191E4FE4C2000A5A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC33991B1E4FE4C2000A5A1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC33991E1E4FE4C2000A5A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC3399201E4FE4C2000A5A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC33992B1E4FE6DB000A5A1E /* DownloadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		EC33992D1E4FE6F4000A5A1E /* DownloadItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadItemTableViewCell.swift; sourceTree = "<group>"; };
+		EC33992E1E4FE6F4000A5A1E /* DownloadItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownloadItemTableViewCell.xib; sourceTree = "<group>"; };
+		EC3399321E4FE7AD000A5A1E /* DownloadableItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadableItem.swift; sourceTree = "<group>"; };
+		EC3399341E4FE7C4000A5A1E /* DownloadItemTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadItemTask.swift; sourceTree = "<group>"; };
+		EC3399361E4FE8C4000A5A1E /* DownloadPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadPresenter.swift; sourceTree = "<group>"; };
+		EC3399381E4FE8E6000A5A1E /* DownloadItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadItemStore.swift; sourceTree = "<group>"; };
+		EC33993A1E4FE8FF000A5A1E /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
 		EE3E93440A8FF212BD540AF5 /* Pods-SignalsTutorialComplete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalsTutorialComplete.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SignalsTutorialComplete/Pods-SignalsTutorialComplete.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,14 +92,69 @@
 		EC3399131E4FE4C2000A5A1E /* SignalsTutorialComplete */ = {
 			isa = PBXGroup;
 			children = (
-				EC3399141E4FE4C2000A5A1E /* AppDelegate.swift */,
-				EC3399161E4FE4C2000A5A1E /* ViewController.swift */,
-				EC3399181E4FE4C2000A5A1E /* Main.storyboard */,
-				EC33991B1E4FE4C2000A5A1E /* Assets.xcassets */,
-				EC33991D1E4FE4C2000A5A1E /* LaunchScreen.storyboard */,
-				EC3399201E4FE4C2000A5A1E /* Info.plist */,
+				EC3399311E4FE789000A5A1E /* Models */,
+				EC3399281E4FE6B5000A5A1E /* Views */,
+				EC3399271E4FE652000A5A1E /* Storyboards */,
+				EC3399261E4FE639000A5A1E /* Supporting Files */,
 			);
 			path = SignalsTutorialComplete;
+			sourceTree = "<group>";
+		};
+		EC3399261E4FE639000A5A1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC3399141E4FE4C2000A5A1E /* AppDelegate.swift */,
+				EC33991B1E4FE4C2000A5A1E /* Assets.xcassets */,
+				EC3399201E4FE4C2000A5A1E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC3399271E4FE652000A5A1E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EC3399181E4FE4C2000A5A1E /* Main.storyboard */,
+				EC33991D1E4FE4C2000A5A1E /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		EC3399281E4FE6B5000A5A1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC3399291E4FE6BB000A5A1E /* ViewControllers */,
+				EC33992A1E4FE6C2000A5A1E /* Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EC3399291E4FE6BB000A5A1E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC33992B1E4FE6DB000A5A1E /* DownloadViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EC33992A1E4FE6C2000A5A1E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EC33992D1E4FE6F4000A5A1E /* DownloadItemTableViewCell.swift */,
+				EC33992E1E4FE6F4000A5A1E /* DownloadItemTableViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		EC3399311E4FE789000A5A1E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC3399321E4FE7AD000A5A1E /* DownloadableItem.swift */,
+				EC3399341E4FE7C4000A5A1E /* DownloadItemTask.swift */,
+				EC3399361E4FE8C4000A5A1E /* DownloadPresenter.swift */,
+				EC3399381E4FE8E6000A5A1E /* DownloadItemStore.swift */,
+				EC33993A1E4FE8FF000A5A1E /* DownloadManager.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3399301E4FE6F4000A5A1E /* DownloadItemTableViewCell.xib in Resources */,
 				EC33991F1E4FE4C2000A5A1E /* LaunchScreen.storyboard in Resources */,
 				EC33991C1E4FE4C2000A5A1E /* Assets.xcassets in Resources */,
 				EC33991A1E4FE4C2000A5A1E /* Main.storyboard in Resources */,
@@ -211,7 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC3399171E4FE4C2000A5A1E /* ViewController.swift in Sources */,
+				EC3399331E4FE7AD000A5A1E /* DownloadableItem.swift in Sources */,
+				EC3399351E4FE7C4000A5A1E /* DownloadItemTask.swift in Sources */,
+				EC33992F1E4FE6F4000A5A1E /* DownloadItemTableViewCell.swift in Sources */,
+				EC33993B1E4FE8FF000A5A1E /* DownloadManager.swift in Sources */,
+				EC33992C1E4FE6DB000A5A1E /* DownloadViewController.swift in Sources */,
+				EC3399371E4FE8C4000A5A1E /* DownloadPresenter.swift in Sources */,
+				EC3399391E4FE8E6000A5A1E /* DownloadItemStore.swift in Sources */,
 				EC3399151E4FE4C2000A5A1E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +452,7 @@
 				EC3399251E4FE4C2000A5A1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
