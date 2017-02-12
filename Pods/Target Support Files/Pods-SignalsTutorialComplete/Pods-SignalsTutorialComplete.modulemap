@@ -1,0 +1,6 @@
+framework module Pods_SignalsTutorialComplete {
+  umbrella header "Pods-SignalsTutorialComplete-umbrella.h"
+
+  export *
+  module * { export * }
+}
